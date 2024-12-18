@@ -6,7 +6,7 @@
 /*   By: tommynchen <tochen@student.42.us.org>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/17 22:02:10 by tommynche         #+#    #+#             */
-/*   Updated: 2024/12/17 22:02:20 by tommynche        ###   ########.usa      */
+/*   Updated: 2024/12/18 20:38:02 by tommynche        ###   ########.usa      */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,14 +53,4 @@ int			*ft_rrange(int start, int end)
 	return (ret);
 }
 
-int			main()
-{
-	int *int_ptr1, *int_ptr2, *int_ptr3;
-	//int_ptr1 = (int *)malloc(50);
-
-	//int_ptr1 = ft_rrange(0,0);
-	
-	printf("ft_rrange(0,0) array first slot %i\n", ft_rrange(0,0)[0]);
-	printf("ft_rrange(1,3) array first slot %i\n", ft_rrange(1,3)[0]);
-	return (0);	
-}
+/
